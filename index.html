@@ -2,29 +2,36 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge">
 <title>Welcome to Teckgeeks</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
 <link href='http://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
 <link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="css/plugins/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/plugins/bootstrap/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/plugins/bootstrap/bootstrap-theme.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/plugins/bootstrap/js/bootstrap.min.js">
 <link rel="stylesheet" type="text/css" href="css/custom/style.css">
 </head>
 <body>
-<div>
-<header class="row">
-<a href="#"><img class="col-md-2 logo" alt="logo" src="image/logo.png"> </a>
-<nav class="col-md-10 shift">
-    <ul>
-      <li><a href="#">Home</a></li>
+<!--Start header-->
+<header>
+<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+  <a class="navbar-brand" href="#">
+    <img src="image/logo.png" width="200" height="50" class="d-inline-block align-top" alt="logo"> 
+  </a>
+  </div>
+    <ul class="nav navbar-nav">
+       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Downloads</a></li>
       <li><a href="#">More</a></li>
       <li><a href="#">Nice staff</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
 </header>
 <!--End header-->
 
@@ -37,22 +44,21 @@
 <!--starting 3 Column section -->
 <div class="main row">
 <div class="primary">
-   <section class="col-md-4"><p>
-    <img class="feature" alt="WHY CHOOSE US" src="image/CHOOSE.jpg">
+   <section class="col-md-4">
+    <img class="feature" alt="WHY CHOOSE US" src="image/choose.jpg">
       <h4>WHY CHOOSE US.</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
    </section>
-   <section class="col-md-4"><p>
-     <img class="feature" alt="OUR MISSION" src="image/MISSION.jpg">
+   <section class="col-md-4">
+     <img class="feature" alt="OUR MISSION" src="image/mission.jpg">
        <h4>OUR MISSION.</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
    </section>
-   <section class="col-md-4"><p>
+   <section class="col-md-4">
      <img class="feature" alt="WHAT WE DO" src="image/about.jpg">
        <h4>WHAT WE DO.</h4>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
    </section>
-</div>
 </div>
 </div>
 <!--End 3 Column section -->
@@ -66,17 +72,17 @@
 <!--starting First vertical column -->
 <div class="main row">
 <section class="col-md-4">
-    <img class="feature" alt="Open Imaginatio" src="image/Open.jpg">
+    <img class="feature" alt="Open Imaginatio" src="image/open.jpg">
       <h4>Open Imagination</h4>
         <p>Media, Icons</p>
    </section>
    <section class="col-md-4">
-    <img class="feature" alt="Locked Steel Gate" src="image/Locked.jpg">
+    <img class="feature" alt="Locked Steel Gate" src="image/locked.jpg">
       <h4>Locked Steel Gate</h4>
         <p>Illustrations</p>
    </section>
    <section class="col-md-4">
-    <img class="feature" alt="Mac Sunglasses" src="image/Mac.jpg">
+    <img class="feature" alt="Mac Sunglasses" src="image/mac.jpg">
       <h4>Mac Sunglasses</h4>
         <p>Graphics, UI Elements</p>
    </section>
@@ -85,32 +91,33 @@
 <!--starting second vertical column -->
  <div class="main row">
 <section class="col-md-4">
-    <img class="feature" alt="Shake It!" src="image/Shake.jpg">
+    <img class="feature" alt="Shake It!" src="image/shake.jpg">
       <h4>Shake It!</h4>
         <p>Illustrations, Graphics</p>
    </section>
    <section class="col-md-4">
-    <img class="feature" alt="Backpack Contents" src="image/Backpack.jpg">
+    <img class="feature" alt="Backpack Contents" src="image/backpack.jpg">
       <h4>Backpack Contents</h4>
         <p>UI Elements, Icons</p>
    </section>
    <section class="col-md-4">
-    <img class="feature" alt="Sunset Bulb Glow" src="image/Sunset.jpg">
+    <img class="feature" alt="Sunset Bulb Glow" src="image/sunset.jpg">
       <h4>Sunset Bulb Glow</h4>
         <p>Graphics</p>
    </section>
  </div>
-</body>
 <!--End second vertical column -->
 
 <!--starting footer -->
-<Footer>
-<p>
-<h6>Copyright &copy; Karan Sethi
+    <footer class="footer">
+      <div class="container">
+   <h6 class="text-muted"> Copyright &copy; Karan Sethi
    <a href="#" class="fa fa-facebook"></a>
    <a href="#" class="fa fa-twitter"></a>
    <a href="#" class="fa fa-google"></a>
-</h6>
-</Footer>
+   </h6>
+   </div>
+    </footer>
+	</body>
  <!--End footer -->
 </html>
